@@ -36,3 +36,7 @@ function main() {
 }
 // Code execution
 main()
+
+fetch(`https://source.unsplash.com/1600x900/?beach`).then((r) => {
+  console.log(r)
+})
